@@ -1,0 +1,17 @@
+﻿<Window x:Class="A3ManuelMartinez.AddContinent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A3ManuelMartinez"
+        mc:Ignorable="d"
+        Title="AddContinent" Height="450" Width="800">
+    <Canvas>
+        <Label x:Name="lblContinentName" Content="Enter Continent Name:" Width="142" Height="34" Canvas.Left="188" Canvas.Top="158" HorizontalAlignment="Left" VerticalAlignment="Center"></Label>
+        <TextBox x:Name="txtContinentName" HorizontalAlignment="Left" VerticalAlignment="Top" Width="197" Canvas.Left="350" Canvas.Top="157" RenderTransformOrigin="0.5,0.5" Height="35"></TextBox>
+
+        <Button x:Name="btnAddContinentToDB" Content="Add Continent" Click="btnAddContinentToDB_Click" Width="103" Height="43" Canvas.Left="227" Canvas.Top="251" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+        <Button x:Name="btnBackToMain" Content="Close" Click="btnBackToMain_Click" Width="102" Height="45" Canvas.Left="400" Canvas.Top="249" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+
+    </Canvas>
+</Window>
